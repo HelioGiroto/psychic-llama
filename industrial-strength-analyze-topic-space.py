@@ -62,13 +62,30 @@ threshold_for_significant_sigma = np.percentile(sigma,25) #Cut off lowest quarti
 sigma = [num if num > threshold_for_significant_sigma else 0 for num in sigma ]
 sigma = np.diagflat(sigma) #Prior steps preserves original dimensions
 reconstructed_matrix =u.dot(sigma).dot(vt)
-print reconstructed_matrix.shape
 
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.plot(reconstructed_matrix[:,0],reconstructed_matrix[:,1],'k.')
 artist.adjust_spines(ax)
-ax.set_xlabel(r'\Large $1^{st}$ \textbf{\textsc{Semantic Dimension}')
-ax.set_ylabel(r'\Large $2^{nd}$ \textbf{\textsc{Semantic Dimension}')
+ax.set_xlabel(r'\Large $1^{st}$ \textbf{\textsc{Semantic Dimension}}')
+ax.set_ylabel(r'\Large $2^{nd}$ \textbf{\textsc{Semantic Dimension}}')
 plt.tight_layout()
 plt.savefig('LSA-quick.png',dpi=300)
+
+
+del fig,ax
+data = [word for word in ''.join(inputs).split() if len(word)>2 and '.' not in word and 'http' not in word.lower()]
+ap(data)
+fdist =  nltk.FreqDist(data)
+words,freqs = zip(*fdist.most_common(25))
+ap(words)
+fig = plt.figure()
+ax = fig.add_subplot(111)
+ax.plot(freqs,'k',linewidth=2)
+artist.adjust_spines(ax)
+ax.set_xticks(range(len(freqs)))
+ax.set_xticklabels(map(artist.format,words),rotation='vertical')
+ax.set_title(artist.format('Most common words describing Sinai researchers'))
+ax.set_ylabel(artist.format('No. of times word appeared'))
+plt.tight_layout()
+plt.savefig('overall-sinai-frequencies.png')
