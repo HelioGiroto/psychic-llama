@@ -1,2 +1,3 @@
 sinai/
 large_correlation_data_files/
+*.npz
