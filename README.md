@@ -5,7 +5,7 @@ Visualization of NYC Innovation Space
 
 This project aims to identify similar scientists. By _similar_ this project means scientist working in similar fields or with similar patterns of commercialization of their discoveries. 
 
-We display the results of the analysis as an interactive scatter plot. 
+![](linguistic-flowchart-lovasi.pdf)
 
 To estimate similarity we use data from the:
 
@@ -30,4 +30,4 @@ Backend
   		_lda_topics_
   
   1. jaccard->lda.py 
-  		1. Projects the documents from _combined_ onto orthogonalized versions of the basis vectors in _lda_topics_.  
+  		1. Projects the documents from _combined_ onto orthogonalized versions of the basis vectors in _lda_topics_.  Creates the following files:
