@@ -5,7 +5,7 @@ Visualization of NYC Innovation Space
 
 This project aims to identify similar scientists. By _similar_ this project means scientist working in similar fields or with similar patterns of commercialization of their discoveries. 
 
-![](linguistic-flowchart-lovasi.pdf)
+![](linguistic-flowchart-lovasi.pdf?raw=true)
 
 To estimate similarity we use data from the:
 
