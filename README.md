@@ -21,3 +21,8 @@ Backend
 ==============
 
   1. scrape_sinai.sh 
+       1. Acquires the text (without markup) of faculty web pages. 
+       1. Creates a folder for each university. Each file in the folder contains the text of the scientist's web page at the university. 
+       1. Creates a text file _combined_ that contains all of the text in all of the other files in the directory after filtering out stopwords and removing as much HTML and Javascript as possible. 
+
+  1. make->lda-topics.py 
