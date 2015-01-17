@@ -24,5 +24,6 @@ n_top_words = 10
 
 with open('lda-topics_short.txt','wb') as outfile:
 	for i,topic_dist in enumerate(topic_word):
+		ap(topic_dist.shape)
 		topic_words = np.array(data)[np.argsort(topic_dist)][:-n_top_words:-1]
 		print>>outfile,'Topic {}: {}'.format(i, ' '.join(topic_words))
