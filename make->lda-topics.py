@@ -21,7 +21,6 @@ model.fit(tfidf)
 topic_word = model.topic_word_
 n_top_words = 10
 
-
 with open('lda-topics_short.txt','wb') as outfile:
 	for i,topic_dist in enumerate(topic_word):
 		ap(topic_dist.shape)
