@@ -1,4 +1,4 @@
-import string, os 
+import string, os, json, re 
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,18 +9,22 @@ from matplotlib import rcParams
 from sklearn.decomposition import PCA,RandomizedPCA 
 rcParams['text.usetex'] = True
 
-def unique_words(aStr):
-	return ' '.join([word for word in set(aStr.split())])
+regex = re.compile('[%s]' % re.escape(string.punctuation))
+
+def sanitize(list_of_text):
+	return set([word for word in regex.sub('',' '.join(list_of_text).lower()).split()
+				if word not in stopwords and not any([urlword in word for urlword in ['http','file','www']])])
 
 TEXT = 1
 punkt = set(string.punctuation)
 basis_vectors = [unique_words(line.split(':')[TEXT]) for line in open('lda-topics_short.txt','rb').read().splitlines()]
 stopwords = set(open('stopwords.txt').read().splitlines())
-data = [line.lower() for line in open('./sinai/combined','rb').read().splitlines()]
-data = [' '.join([''.join(ch for ch in word if ord(ch)<128) for word in line.split() 
-		if word not in stopwords and 'file://' not in word and not any([ch in punkt for ch in word])]) for line in data]
-ap(basis_vectors)
+data = {pi:sanitize(line) for pi,line in json.load(open('./sinai/cleaned-tagged-text','rb')).iteritems()}
 
+json.dump({key:list(val) for key,val in data.iteritems()},open('sinai-topics.json','wb'))
+ap(data)
+ap(basis_vectors)
+ap(bob)
 def jaccard_similarity(a,b):
 	a = set(a)
 	b = set(b)

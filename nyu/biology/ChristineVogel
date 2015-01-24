@@ -1,0 +1,70 @@
+   Assistant Professor of Biology
+
+   Ph.D. (Computational and Structural Biology), University of Cambridge;
+   M.S. (Mathematical Biology), University College London; Masters
+   (Biochemistry/Molecular Biology), Jena, Germany.
+
+   ' + str2 + '');
+
+   212-998-3976
+
+   http://www.nyu.edu/projects/vogel/
+
+   mass spectrometry, quantitative proteomics, dynamical systems,
+   translation regulation, stress response, protein evolution
+
+   List of Publications from Pubmed
+
+   List of citations from Google Scholar
+
+   My research revolves around proteins, their properties, evolution, and
+   expression patterns. I am a systems biologist who uses statistical and
+   computational tools, large-scale quantitative mass spectrometry, and
+   molecular biology techniques to study the dynamics of the cellular
+   proteome.
+
+   Quantitative shotgun proteomics
+
+   fig1.png Until recently, it was impossible to accurately estimate the
+   absolute and relative concentrations of thousands of proteins in
+   complex biological samples. Our quantitative proteomics technology
+   called APEX (Absolute Protein Expression Index, Nature Biotech, 2007
+   25(1)) allows us to do so â for everything from bacteria to yeast and
+   human. Mass spectrometry data is highly complex, and we continuously
+   improve our data mining methods with respect to the identification and
+   quantification of proteins. For example, in MSpresso and MSnet
+   (Bioinformatics 2009a, b), we use mRNA expression data and protein
+   functional network information, respectively, to increase the number of
+   proteins that were identified by mass spectrometry analysis.
+
+   The dynamics of protein expression
+
+   The expression levels of proteins are determined by transcription,
+   translation, mRNA and protein stability, and these processes are
+   regulated by a plethora of mechanisms. Thus, the relationship between
+   protein and mRNA expression levels varies across organisms and sets of
+   proteins (Mol BioSystems, 2009 5(12)). Using yeast and human cell
+   lines, we characterize the proteome and transcriptome under normal
+   conditions and in response to stimuli. Time course data allows us to
+   describe cellular processes as dynamical systems and will enable us to
+   better understand protein expression regulation â both mathematically
+   and biologically.
+
+   Proteomics characterization of translation regulators
+
+   The human genome encodes ~600 proteins with RNA-binding domains, and
+   many of these proteins are putative translation regulators. Using
+   quantitative proteomics approaches and complementary molecular biology
+   techniques, we characterize the impact of RNA-binding proteins on the
+   'translation regulatory network'. One example is Musashi-1 which is a
+   key regulator involved in brain tumor formation, and we analyze its
+   impact on the human proteome and transcriptome. This project is carried
+   out in collaboration with Luiz Penalva (UTexas San Antonio).
+
+   Human Frontier Science Program (2005-2008); Boehringer Ingelheim Fonds
+   Pre-doctoral Fellowship (2001-2004); German National Merit Foundation
+   (1998-2000)
+mailto:'%20+%20str2%20+%20'
+http://www.nyu.edu/projects/vogel/
+http://www.ncbi.nlm.nih.gov/pubmed/?term=Vogel%2C+Christine%5BFull+Author+Name%5D
+http://scholar.google.com/citations?user=Y6Yzy-8AAAAJ&hl=en

@@ -1,0 +1,1 @@
+ data = open('./topics.txt').read

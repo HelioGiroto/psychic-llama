@@ -1,28 +1,49 @@
-import lda, csv, string
+import gensim, json,os
 
 import numpy as np
 
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from awesome_print import ap
-punkt = set(string.punctuation)
-stopwords = set(open('stopwords.txt').read().splitlines())
-#data = filter(lambda x: x != 'none',[shift['Student Comment'].lower().strip() for shift in csv.DictReader(open('comments.csv'))])
-data = [line.lower() for line in open('./sinai/combined','rb').read().splitlines()]
-data = [' '.join([''.join(ch for ch in word if ord(ch)<128) for word in line.split() 
-		if word not in stopwords and 'file://' not in word and not any([ch in punkt for ch in word])]) for line in data]
+from gensim import corpora, models, similarities
+
+if not os.path.isfile('./combined.mm'):
+	data = json.load(open('sinai-topics.json','rb')).values() + json.load(open('nyu-topics.json','rb')).values()
+	all_tokens = sum(data,[])
+	tokens_once = set(word for word in set(all_tokens) if all_tokens.count(word)==1)
+	texts = [[word for word in line if word not in tokens_once] for line in data]
+
+	dictionary = corpora.Dictionary(texts)
+	dictionary.save('./combined.dict')
+
+	corpus = [dictionary.doc2bow(text) for text in texts]
+	corpora.MmCorpus.serialize('./combined.mm',corpus)
+else:
+	dictionary = corpora.Dictionary.load('./combined.dict')
+	corpus = corpora.MmCorpus('./combined.mm')
+
+
+lda = models.ldamodel.LdaModel(corpus=corpus,id2word=dictionary,passes=20)
+with open('./topics-combined.txt','wb') as outfile:
+	for topic in lda.print_topics(num_topics=100,num_words=40):
+		print>>outfile,topic
+
+'''
 tfx = TfidfVectorizer(data,tokenizer=word_tokenize,strip_accents='unicode',
 	ngram_range=(1,3),min_df=3, use_idf=True)
-tfidf = tfx.fit_transform(data)
 
-model = lda.LDA(n_topics=10, n_iter=1000,random_state=1)
-model.fit(tfidf)
+'''
 
+'''
 topic_word = model.topic_word_
 n_top_words = 10
 
-with open('lda-topics_short.txt','wb') as outfile:
+ap(model.doc_topic_[0])
+
+''''''
+with open('lda-topics.txt','wb') as outfile:
 	for i,topic_dist in enumerate(topic_word):
-		ap(topic_dist.shape)
-		topic_words = np.array(data)[np.argsort(topic_dist)][:-n_top_words:-1]
+		topic_words = tfidf[i,np.argsort(topic_dist)][:-n_top_words:-1]
+
 		print>>outfile,'Topic {}: {}'.format(i, ' '.join(topic_words))
+'''

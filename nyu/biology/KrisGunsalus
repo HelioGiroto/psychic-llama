@@ -1,0 +1,103 @@
+   Associate Professor of Biology; Faculty Director of Bioinformatics
+
+   Ph.D. 1997 (Genetics and Development), Cornell; B.A. 1984
+   (Chemistry/Biology), Cornell.
+
+   ' + str2 + '');
+
+   (212) 998-8236
+
+   (212) 995-4015
+
+   Developmental systems biology.
+
+   List of Publications from Pubmed
+
+   Our laboratory is interested in the integrative analysis of diverse
+   functional genomics data to identify groups of genes that work in
+   specific cellular and developmental processes. A major challenge in
+   systems biology is how to extract meaningful biological insights from
+   large heterogeneous data sets that probe different aspects of gene
+   function. Several ongoing projects in the lab use integrative
+   approaches to analyze and interpret large-scale datasets and to
+   generate testable hypotheses on gene function in different biological
+   systems. These projects all involve close collaborative interaction
+   between experimental and computational scientists.
+
+   Molecular networks in C. elegans early embryogenesis
+   We have used an integrative approach to characterize gene networks that
+   function in the very early C. elegans embryo, based on data from
+   different kinds of functional genomics data that we and others have
+   collected, such as protein-protein interactions, gene expression
+   profiles, and phenotypic maps (Fig. 1). We are currently extending this
+   work in collaboration with the laboratory of Dr. Fabio Piano to
+   systematically define genetic interactions in C. elegans early
+   embryogenesis. Genetic interactions tell us about logical relationships
+   between different cellular components, and we are analyzing how these
+   functional dependencies complement other functional data that we
+   already have in hand. The long-term goal of this work is to develop a
+   global map of the molecular architecture underlying early development
+   in C. elegans.
+
+   [image002.jpg]
+   Figure 1. C. elegans gene networks in early embryogenesis. (a) A
+   composite view of around 30,000 functional linkages between 661 C.
+   elegans genes with phenotypes in the early embryo, based on
+   protein-protein interactions (Int), phenotypic similarity based on a
+   signature of 45 early embryonic phenotypic characters (Ph), and gene
+   co-expression in a compendium of gene expression data (Tr). (b) When
+   the network is filtered for high-confidence functional links between
+   genes (supported by two or more types of functional genomic data, e.g.
+   phenotypic correlation and protein-protein interaction), a modular
+   organization of molecular machinery is revealed, in which groups of
+   highly interconnected genes are linked to each other via a small number
+   of functional interactions. Adapted from Gunsalus et al., Nature 2005.
+
+   Genetic requirements for mouse early embryogenesis
+   We are collaborating with Dr. Nicole Noyes of the NYU School of
+   Medicine to predict and analyze RNAi phenotypes in early mouse embryos
+   using time-lapse microscopy. For this work, we are leveraging
+   functional genomic data from several model organisms to identify
+   candidate genes for RNAi that will help us define the spectrum of
+   phenotypic defects that can occur in early mammalian embryos, similar
+   to our previous work in C. elegans. One of the goals of this
+   translational project is to develop a more sophisticated and
+   non-invasive way to determine the developmental potential of human
+   embryos for patients who seek reproductive assistance for infertility.
+
+   Post-transcriptional gene regulation in C. elegans
+   Regulation of mRNA localization, translation, and stability is
+   increasingly recognized as in important layer in the regulation of gene
+   activity in diverse biological systems. The modENCODE Consortium is an
+   NIH/NHGRI initiative to identify and analyze functional elements in
+   model organism genomes. As part of modENCODE, we are involved in the
+   annotation of C. elegans 3‚UTRs and functional sequence elements
+   contained in these regions. The goal of this work is to identify and
+   test putative post-transcriptional regulatory networks in development.
+   This project is a collaboration with Fabio Piano (PI), John Kim (U.
+   Michigan, Co-PI), and Nikolaus Rajewsky (Center for Medical Systems
+   Biology, Max Delbruck Center, Berlin, Co-PI).
+
+   Interactive tools for functional genomic data
+   As part of these projects, we develop web-based tools and graphical
+   interfaces to provide the research community at large with enhanced
+   access to and mining capabilities for large-scale functional genomic
+   data. To facilitate a systems-level view of gene networks, we have
+   developed a web-based network visualization tool called "N-Browse"
+   (http://www.gnetbrowse.org) that allows researchers to browse gene
+   neighborhoods and heterogeneous functional relationships in a modular
+   way based on these integrated data. We have also developed a
+   web-accessible database of RNA interference (RNAi) phenotypes in C.
+   elegans, "RNAiDB" (http://www.rnai.org), which we use both to
+   distribute data from large-scale RNAi studies and as an online notebook
+   for ongoing high-content phenotypic analysis. In conjunction, we are
+   developing strategies to make phenotypic data more amenable to
+   computational analysis and tools to mine these data.
+
+
+   National Academies Education Fellow in the Life Sciences, NSF ADVANCE
+   Fellows Award, W.M. Keck Foundation Fellowship in Biology
+mailto:'%20+%20str2%20+%20'
+http://www.ncbi.nlm.nih.gov/pubmed/?term=(Gunsalus+K%5BAuthor%5D+OR+Gunsalus+KC%5BAuthor%5D)+NOT+Gunsalus+KT%5BAuthor%5D
+http://www.gnetbrowse.org/
+http://www.rnai.org/

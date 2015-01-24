@@ -25,9 +25,7 @@ Backend
        1. Creates a folder for each university. Each file in the folder contains the text of the scientist's web page at the university. 
        1. Creates a text file _combined_ that contains all of the text in all of the other files in the directory after filtering out stopwords and removing as much HTML and Javascript as possible. 
 
-  1. make->lda-topics.py 
-  		1. Performs latent Dirichlet allocation on _combined_ and saves the top 10 to
+  1. make->lda-topics.py -- Performs latent Dirichlet allocation on _combined_ and saves the top 10 to
   		_lda_topics_
   
-  1. jaccard->lda.py 
-  		1. Projects the documents from _combined_ onto orthogonalized versions of the basis vectors in _lda_topics_.  Creates the following files:
+  1. jaccard->lda.py -- Projects the documents from _combined_ onto orthogonalized versions of the basis vectors in _lda_topics_.  

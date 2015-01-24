@@ -1,0 +1,25 @@
+'''
+map(artist.adjust_spines,[left,right])
+left.set_xticks([0,1,2])
+right.set_xticks([0,1,2])
+left.set_xlabel(artist.format('Eigenvector'))
+left.set_ylabel(artist.format('Topic'))
+divider3 = make_axes_locatable(left)
+cax3 = divider3.append_axes("right", size="20%", pad=0.05)
+divider4 = make_axes_locatable(right)
+cax4 = divider4.append_axes("right", size="20%", pad=0.05)
+right.set_xlabel(artist.format('Eigenvector'))
+right.set_ylabel(artist.format('Lab'))
+clax = plt.colorbar(lax,cax=cax3)
+rlax = plt.colorbar(rax,cax=cax4)
+plt.tight_layout()
+plt.savefig('Topic Decomposition.png',dpi=300)
+
+
+
+fig,(left,right) = plt.subplots(nrows=1,ncols=2)
+lax = left.imshow(np.absolute(eigenvectors),aspect='auto',interpolation='nearest')
+
+
+rax = right.imshow(np.absolute(projections.T),aspect='auto',interpolation='nearest')
+'''

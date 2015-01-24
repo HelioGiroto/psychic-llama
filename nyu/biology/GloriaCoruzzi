@@ -1,0 +1,184 @@
+   Carroll and Milton Petrie Professor; Professor of Biology
+
+   Ph.D./M.S. 1979 (Molecular and Cell Biology), New York University; B.S.
+   1976 (Biology), Fordham.
+
+   ' + str2 + '');
+
+   (212) 998-3963
+
+   (212) 995-4015
+
+   http://coruzzilab.bio.nyu.edu/
+
+   Plant Systems Biology and Evolutionary Genomics
+
+   List of Publications from Pubmed
+
+   List of citations from Google Scholar
+
+   Research
+
+   Plant Systems Biology.  Our goal is to identify gene regulatory
+   networks in plants using a combination of genetic, genomic,
+   bioinformatic, and systems biological approaches. Our lab has two main
+   areas of inquiry:  1. A systems approach to nitrogen networks & the
+   Virtual Plant; 2. Comparative Genomics of Seed Evolution.
+
+   A Systems Approach to Nitrogen Networks & the VirtualPlant.
+   The long term goal of this project is to understand how internal and
+   external perturbations affect gene regulatory networks that link plant
+   metabolism and development. Succeeding in this endeavor will allow us
+   to (1) explain mechanistically how changes in gene networks evoke
+   systems-wide responses to external treatments such as nitrogen, and (2)
+   to predict network states under untested conditions or in response to
+   modifications. In the long term, this systems biology approach to gene
+   networks should enable researchers to test the effects of
+   biotechnological strategies for gene modifications in silico, prior to
+   implementation in transgenic plants.  Our approach starts with the
+   integration of all available information on Arabidopsis genomic data
+   into a "multinetwork" where the "edges" connecting gene "nodes" are
+   supported by multiple evidence including: metabolic pathway
+   connections, protein:protein and protein:DNA interactions, microarray
+   data, microRNA:target datasets, and literature-based interactions.  At
+   present, the Arabidopsis multinetwork we have created  contains
+   approximately 7,000 gene nodes and 230,000 interactions between them.
+   As proof-of-principle, we have used this Arabidopsis multinetwork to
+   identify the gene networks controlled by light, carbon and nitrogen
+   signals.   In selected cases, the networks identified in wild-type
+   plants have been validated using microarray data from Arabidopsis
+   signaling mutants.  Our studies include analysis of gene networks in
+   specific organs (leaves, roots or seeds) or in specific cell-types
+   based on analysis of microarray data obtained from cell-sorted samples
+   of roots.  The network analysis of gene lists generated from the
+   microarray data in a network view is shown in Figure 1.
+
+                                  fig1.gif
+             FIGURE 1:  Nitrogen Networks and the VirtualPlant.
+
+   The VirtualPlant Project.  In order to go beyond data integration to
+   conceptual integration of genomic data, we recognize that scientists
+   pattern recognition skills often lead to the most enduring qualitative
+   biological insights. To support those skills in a data-rich
+   environment, have implemented a set of data integration, analysis and
+   visualization tools into a system called the "VirtualPlant"
+   (www.virtualplant.org).   This system encompasses visualization
+   techniques that render the multivariate genomic information in visual
+   formats that facilitate the extraction of biological concepts and
+   enable a "Systems Biology" view of the genomic data.  While our project
+   relates specifically to Arabidopsis, the data structures, algorithms,
+   and visualization tools we have developed have been designed in a
+   species-independent fashion.  Thus, with the proper data uploads, the
+   system can be used to visualize and model the molecular basis and
+   underlying genomic responses in any organism for which genomic data is
+   available.
+
+   Comparative Genomics of Seed Evolution
+   This NSF Plant Genome project (NSF DBI-0421604) involves the
+   comparative genomic analysis of non-model, non-crop species, to uncover
+   genes important to the evolution of seeds, an important agronomic
+   trait. This project is being conducted with our partners in the NY
+   Plant Genomic Consortium that include coPIs from NYU Biology (Coruzzi),
+   NYU Courant (Shasha), NYBG (Stevenson), AMNH (DeSalle) and CSHL
+   (McCombie & Martienssen).   Our approach is to generate and mine EST
+   data from the the most primitive living-seed plants, the nodal
+   Gymnosperms and the heterosporous lycophyte, Selaginella (as an
+   outgroup), to resolve their phylogenetic relationship and to uncover
+   novel genes and characters associated with the evolution and
+   development of seeds. This project is being conducted collaboratively
+   by scientists at three NY area institutions specializing in evolution,
+   genomics and bioinformatics, who comprise The New York Plant Genomics
+   Consortium (www.nypgenomics.org).  Participants in this project include
+   PIs who collaborate in the training of post docs and graduate students
+   from New York University, The New York Botanical Garden, Cold Spring
+   Harbor, and The American Museum of Natural History.  We aim to achieve
+   three goals:
+
+                                  fig2.gif
+     FIGURE 2.  Comparative Genomics of Seed Evolution:  Use of ESTs in
+    functional phylogenomic studies to identify genes associated with the
+                             evolution of seeds
+
+   FUNDING:
+   NIH NIGMS GRANT GM32877: "Regulation of amino acid biosynthesis genes
+   in plants"
+   P.I.:  Gloria Coruzzi
+
+   NSF Arabidopsis 2010 Genome Grant (IBN0115586):"N2010: Nitrogen
+   Networks in Plants" P.I. Gloria Coruzzi, Co-PIs; D. Shasha (NYU
+   Courant), N.Crawford (UCSD), Ken Birnbaum (NYU Center for Comparative
+   Functional Genomics).
+
+   NSF Plant Genome Grant: DBI-0421604. "Genomics of Comparative Seed
+   Evolution" P.I.: Gloria Coruzzi;  Co-PIs: Stevenson (NYBG), McCombie
+   (CSHL), DeSalle (AMNH).
+
+   NSF Database Activities: DBI-0445666, "Conceptual Data Integration for
+   the Virtual Plant".  Coruzzi , PI, CoPIs: Gutierrez R (U Catolica de
+   Chile), Shasha D (NYU Courant).
+
+   DOE GRANT DEFG02-89ER14034: "Asparagine synthetase gene regulation and
+   plant nitrogen metabolism" P.I. Coruzzi
+
+   Biosketch
+
+   Gloria Coruzzi is currently the Carroll & Milton Petrie Professor of
+   Biology at New York University. Her research in Plant Systems Biology
+   combines genomic, bioinformatic and system biology approaches to
+   identify gene networks involved in biological regulatory mechanisms
+   controlling nitrogen use and the evolution of seeds. A native New
+   Yorker, Dr. Coruzzi received her Ph.D. in Molecular & Cell Biology at
+   New York University School of Medicine in yeast genetics where she
+   decoded the yeast mitochondrial genome. Her studies on plant genes
+   began during her studies as an Assistant and Associate Professor at
+   Rockefeller University. Since joining NYU a professor, Dr. Coruzzi's
+   lab initiated Plant Systems Biology approaches to perform functional
+   genomic studies in Arabidopsis and other species. This work including
+   the development of new informatic tools encompassed in a software
+   platform called VirtualPlant which is being performed in collaboration
+   with colleagues at NYU Courant Institute for Math & Computer Science.
+   Dr. Coruzzi is also engaged in a collaborative genomic project on the
+   Comparative Genomics of Seed Evolution with co-PIs at the New York
+   Botanical Garden, the American Museum of Natural History and Cold
+   Spring Harbor labs. Dr. Coruzzi's research is currently funded by The
+   National Institutes of Health, The NSF 2010 Project, The NSF Plant
+   Genome Project, the NSF Database and Information Project, and The
+   Department of Energy. Dr. Coruzzi was named an AAAS Fellow in 2005 and
+   currently serves on numerous science advisory and editorial boards.
+
+   Teaching Activities
+
+   I have been involved in developing a specialized graduate training
+   track that concerns the molecular evolution of plants and animals
+   called BRIDGES: Biotic Resources: Integrating Development, Genetics,
+   Evolution and Systematics which is currently run by Dr. David Fitch.
+   The BRIDGES PhD track was developed jointly by NYU faculty and faculty
+   the New York Botanical Garden (NYBG) and the American Museum of Natural
+   History (AMNH). I teach in the following undergradiate and graduate
+   courses: V23.0012 Principles of Biology II, V230014 Honors Principles
+   of Biology II, V23.0022 Molecular and Cellular Biology; G23.1072
+   Molecular Controls of Organism Form and Function, G23.1128 Genomics;
+   G23.1002/2004 BioCore II & IV: Genes, Systems and Evolution.
+
+   Laboratory Members
+   See Coruzzi Laboratory Webpage for more information on people &
+   projects.
+
+   Editorial Board; Current Opinions in Plant Biology, 1998-present; Board
+   of Directors, International Society of Plant Molecular Biology,
+   1996-1999; New York Botanical Garden, Advisory Committee for Systematic
+   Botany, 1995-present; Board Member, North American Arabidopsis Steering
+   Committee, 1994-1997; Associate Editor, Plant Physiology, 1992-1998.
+
+   AAAS Fellow, 2005; Carroll and Milton Petrie Chair in Biology, NYU
+   1996- present; National Institutes of Health Grant, GM32877, 1996-2000;
+   National Science Foundation Grant, MCB93-04913, 1996-1999; United
+   States Department of Energy Grant, DEFG0292ER20071, 1995-1998; Herbert
+   and Margaret Sokol Award in the Sciences, NYU Dec. 1996.
+mailto:'%20+%20str2%20+%20'
+http://coruzzilab.bio.nyu.edu/
+http://www.ncbi.nlm.nih.gov/pubmed/?term=Coruzzi+G%5BAuthor%5D+AND+(plant+OR+genome)
+http://scholar.google.com/citations?user=UVuQeJIAAAAJ&hl=en
+http://www.virtualplant.org/
+http://www.nypgenomics.org/
+http://coruzzilab.bio.nyu.edu/home/

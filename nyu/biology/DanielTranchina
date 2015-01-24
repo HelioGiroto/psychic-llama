@@ -1,0 +1,83 @@
+   Professor of Biology, Mathematics, Neural Science
+
+   Ph.D. 1981 (neurobiology), Rockefeller; B.A. 1975 (neurobiology), SUNY
+   (Binghamton).
+
+   ' + str2 + '');
+
+   (212) 998-3109
+
+   (212) 995-4015
+
+   Computational Neuroscience, Phototransduction, Stochastic Problems in
+   Cellular and Molecular Biology, Statistical Analysis and Modeling of
+   Genome-Scale Data
+
+   List of Publications from Pubmed
+
+   List of citations from Google Scholar
+
+   My research in computational biology and neuroscience integrates data
+   from experimental studies, theoretical analysis, mathematical modeling,
+   and computer simulation.
+
+   One of my ongoing projects, in vertebrate phototransduction, focuses on
+   light adaptation in rods and cones, and on the reproducibility of rod
+   responses to single photons.  Electrophysiological and biochemical data
+   provide a basis for developing mathematical models that account for
+   light adaptation and statistical properties of the singe-photon
+   response in terms of the molecular mechanisms underlying
+   phototransduction.
+
+   Another ongoing project involves the development of "statistical
+   mechanical" methods for modeling large neural networks.  These methods
+   employ the theory of the probability (population) density function.
+   Factors that make conventional methods unwieldy or intractable -
+   thousands of neurons and millions of synapses ¬are used to great
+   advantage in these methods. Similar neurons are lumped together into
+   populations, and one tracks the distribution of neurons over state
+   space in each population.  The state of a neuron is determined by the
+   dynamic variables in the underlying single-neuron model.  The
+   population-firing rate is given by the flux of probability across a
+   particular surface in state space. Neurons are coupled via stochastic
+   synapses; the rate of excitatory/inhibitory input events for a target
+   neuron is determined by the rate of action potentials in each of the
+   presynaptic populations and by the average number of synapses the
+   postsynaptic neuron receives from each of these populations.
+
+   In an ongoing collaboration with Arjun Raj at the University of
+   Pennsylvania, I am analyzing and modeling stochastic gene expression.
+   The models include gene switching, synthesis and degradation of mRNA
+   and proteins, and cell divisions. A goal is to understand sources of
+   large fluctuations in the number of transcripts from genes that are
+   expressed at low levels, the consequences for protein levels, and the
+   implications for cell fate and cell physiology in general. Future
+   modeling will focus on gene networks.
+
+   Finally, I am collaborating with Professor Gloria Coruzzi and her lab
+   on projects involving the identification and modeling of gene
+   regulatory networks underlying nitrogen assimilation and metabolism in
+   Arabidopsis. Statistical analysis of microarray, RNA-Seq and ChIP-Seq
+   data plays a central role in these projects.
+
+   I teach both in the Department of Biology and the Department of
+   Mathematics.
+
+   Graduate Biology courses include:
+
+   Graduate Mathematics courses include:
+
+   I received my Ph.D. in 1981 from the Rockefeller University, where I
+   studied physical chemistry, membrane biophysics, neurophysiology, and
+   mathematics. My dissertation was an analysis of information processing
+   in the outer retina of the turtle. My postdoctoral research was a
+   combined experimental and theoretical study of light adaptation -- a
+   process by which the retina adjusts its sensitivity according to
+   lighting conditions. In 1984, I joined the faculty of New York
+   University with a joint appointment in the Courant Institute of
+   Mathematical Sciences and the Department of Biology.
+
+   Whitehead Fellowship, New York University, 1986.
+mailto:'%20+%20str2%20+%20'
+http://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term=Tranchina+D%5BAuthor%5D
+http://scholar.google.com/citations?user=EcMD4XQAAAAJ&hl=en
