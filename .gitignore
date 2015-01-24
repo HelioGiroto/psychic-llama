@@ -1,3 +1,6 @@
 sinai/
 large_correlation_data_files/
-data_corelation_matrix.npz
+data_corelation_matrix.npz 
+brown/
+Graphics/
+nyu/
